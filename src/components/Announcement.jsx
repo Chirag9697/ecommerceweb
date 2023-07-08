@@ -2,6 +2,7 @@
 import styled from '@emotion/styled'
 import React from 'react'
 const Container=styled.div`
+    margin-top:10px;
     height:30px;
     background-color:teal;
     color:white;

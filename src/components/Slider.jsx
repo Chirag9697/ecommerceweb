@@ -2,6 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled';
 import { useState } from 'react';
 import { ArrowLeftOutlined,ArrowRightOutlined } from '@material-ui/icons';
+import {mobile} from '../responsive'
 const Container=styled.div`
     width:100%;
     margin-top:20px;
@@ -10,6 +11,8 @@ const Container=styled.div`
     // background-color:co  ral;
     position:relative;
     overflow:hidden;    
+  ${mobile({display:"none"}  )}
+    
 `
 const Arrow=styled.div`
     width:50px;
